@@ -5,7 +5,7 @@ img {width: 100%;}
 
 #game {max-width: 720;height: auto;margin: 0 auto;position: relative;}
 #topInfoWin {position: relative;}
-#jcUfo {width: 25%;margin: 0 auto;position: relative;z-index: 9;padding-top: 18%;}
+#jcUfo {width: 25%;margin: 0 auto;position: relative;z-index: 9;padding-top: 10%;}
 .infoback {position: absolute;width: 100%;top: 0;left: 0;}
 .infoback img {width: 100%;}
 

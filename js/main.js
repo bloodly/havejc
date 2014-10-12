@@ -1,5 +1,10 @@
 $(function(){
-	$("#jcUfo img").click(function(){game.ufoclick()})
+	$("#jcUfo img").mousedown(function(){
+		$(this).css({"padding":"1%","width":"98%"});
+	}).mouseup(function(){
+		$(this).css({"padding":"0%","width":"100%"});
+		game.ufoclick();
+	});
 })
 var a=0;
 var game = {
