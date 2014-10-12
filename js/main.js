@@ -1,6 +1,6 @@
 $(function(){
 	$("#jcUfo img").mousedown(function(){
-		$(this).css({"padding":"1%","width":"98%"});
+		$(this).css({"padding":"2%","width":"96%"});
 	}).mouseup(function(){
 		$(this).css({"padding":"0%","width":"100%"});
 		game.ufoclick();
