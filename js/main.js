@@ -1,14 +1,9 @@
 $(function(){
-	// $("#jcUfo img").mousedown(function(){
-	// 	$(this).css({"padding":"2%","width":"96%"});
-	// }).mouseup(function(){
-	// 	$(this).css({"padding":"0%","width":"100%"});
-	// 	game.ufoclick();
-	// });
-	$("#jcUfo img").bind('touchstart mousedown', function(event){ 
-		tool.showinfo(1);
+	$("#jcUfo img").bind('touchstart mousedown', function(event){
+		$(this).css({"padding":"2%","width":"96%"});
 	}).bind('touchend mouseup',function(){
-		tool.showinfo(2);
+		$(this).css({"padding":"0%","width":"100%"});
+		game.ufoclick();
 	});
 })
 var a=0;
